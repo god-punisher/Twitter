@@ -9,8 +9,8 @@ dataset = 'charlemagne-jaehaerys'
 #dataset = 'sargon-solomon'
 jsonfile = 'tweets-21-01'
 # /////////////////// /////////////////// ///////////////////
-s = 1600000
-t = 1959233
+s = 1600000 #start reading from line s...
+t = 1959233 #... till line t
 #tweets-21-01.json	5.31 GB		1959233
 # /////////////////// /////////////////// ///////////////////
 tweetsfile = dataset_path + '/' + dataset + '/' + jsonfile + '.json'
